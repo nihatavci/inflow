@@ -8,6 +8,10 @@ export default function DevNavbar() {
   const pathname = usePathname()
   const links = [
     {
+      href: "/dev/design-system",
+      label: "Design System",
+    },
+    {
       href: "/dev/pages-overview",
       label: "Pages overview",
     },
